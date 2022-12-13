@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/reset.css" />
     <link rel="stylesheet" href="./assets/style.css" />
     <title>Tyler Dins Portfolio</title>
 </head>
@@ -11,17 +12,89 @@
 <body>
     <header>
         <h1 class="header-bar">Tyler Dinslage</h1>
-        <div>
+        <div class="links">
             <ul>
-                <li><a href="#">Welcome</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="#welcome-description">Welcome</a></li>
+                <li><a href="#projects-made">Projects</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
     </header>
     <main>
-        <img class="snowboard-photo" src="./assets/images/rubicon-peak-splitboard.jpg" />
-        <img class="profile-photo" src="./assets/images/tyler-dinslage-photo-school.jpeg" />
+        <div class="this-is-me">
+            <img class="snowboard-photo" src="./assets/images/rubicon-peak-splitboard.jpg" alt="Mountain Top" />
+            <div class="photo-of-me">
+                <img class="profile-photo" src="./assets/images/tyler-dinslage-photo-school.jpeg"
+                    alt="Tyler Dinslage" />
+                <h3 class="profile-title">Tyler "Dins" Dinslage</h3>
+            </div>
+            <aside class="welcome-para" id="welcome-description">
+                <h3 class="welcome-head">Welcome to my Portfolio!</h3>
+                <p>My name is Tyler Dinslage. I am a entry level full stack web developer. I aim to grow as a developer
+                    and
+                    make coding an instinctive trait. This page will continue to update as I create and deploy new
+                    applications. I invite you to follow me on my journey of learning.
+                </p>
+                <br>
+                <p>Most people call me "Dins". I am from Nebraska originally. I have lived in Colorado, but now reside
+                    in
+                    the Lake Tahoe, California area. I graduated from the University of Nebraska in May of 2011 with a
+                    double bachelor degree in Finance and Economics. Upon graduation was when I moved the the Colorado
+                    Rockies. There I became a avid snowboarder and adventuresman. I have worked a variety of jobs
+                    including
+                    Property Management, Accounting, Home Remodeling, Sales at Lowe's, and Snowmaking! In the fall of
+                    2020,
+                    I moved to California. Here I continued making snow and was also a snow groomer. I recently decided
+                    I
+                    was ready to start a new chapter & career! That is what brought me to coding!
+                </p>
+                <br>
+                <p>More personally, I am huge fan of the outdoors. Along with snowboarding; I enjoy hiking, golfing,
+                    paddleboarding, and hanging at the beach. I have a dog named Leo whom I've had for over 14 years!
+                    When I
+                    am not outdoors I enjoy cooking good food and playing board games. Cribbage and Settlers of Catan
+                    are
+                    two of my favorite games. I also like to go to concerts, travel to new cities, and go camping.
+                </p>
+            </aside>
+        </div>
+        <section class="projects-ive-made" id="projects-made">
+            <h2>Links to my Projects</h2>
+            <p> Listed here are my beginning webpages and projects. I made these to teach myself how to code. Each
+                one builds on previous work.
+                I am learning new techniques everyday and applying them.
+            </p>
+            <ul class="projectlinks">
+                <li class="musician">
+                    <section>
+                        <h2>Favorite Musician</h2>
+                        <a target="_blank" href="https://tylerdins88.github.io/favorite-musician/">
+                            <img src="./assets/images/favorite-musician.jpeg" alt="Favorite Musican"></a>
+                    </section>
+                </li>
+                <li class="contact">
+                    <section>
+                        <h2>Visitor Contact</h2>
+                        <a target="_blank" href="https://tylerdins88.github.io/landing-page-mini-project/">
+                            <img src="./assets/images/antarctica-continet.jpeg" alt="Antarctica Continent"></a>
+                    </section>
+                </li>
+                <li class="css-snippet">
+                    <section>
+                        <h2>CSS Cheatsheet</h2>
+                        <a target="_blank" href="https://tylerdins88.github.io/css-snippet-mini-project/">
+                            <img src="./assets/images/css-snippet.jpeg" alt="CSS Cheatsheet"></a>
+                    </section>
+                </li>
+                <li class="prework-study">
+                    <section>
+                        <h2>Study Guide</h2>
+                        <a target="_blank" href="https://tylerdins88.github.io/prework-study-guide/">
+                            <img src="./assets/images/study-guide.jpeg" alt="Study Guide"></a>
+                    </section>
+                </li>
+            </ul>
+        </section>
     </main>
 </body>
 

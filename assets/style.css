@@ -13,14 +13,19 @@ body {
 header {
     background-color: lawngreen;
     border-bottom: 5px solid darkgreen;
-    height: 40px;
+    height: 60px;
     width: 100%;
     padding: 10px;
 }
 
 h1 {
+    font-size: 200%;
     padding: 8px;
     margin-left: 30px;
+}
+
+h3 {
+    font-size: 130%;
 }
 
 ul {
@@ -37,7 +42,14 @@ li {
     display: inline;
 }
 
-div {
+.links {
+    float: right;
+    margin-top: 5px;
+    margin-right: 40px;
+}
+
+.this-is-me {
+    display: inline;
     float: right;
     margin-top: 5px;
     margin-right: 40px;
@@ -52,8 +64,46 @@ div {
     margin-right: auto;
 }
 
+.photo-of-me {
+    float: left;
+    width: 25%;
+}
+
 .profile-photo {
     border: 3px ridge black;
-    margin-top: 50px;
+    border-radius: 5px;
+    margin-top: 70px;
     margin-left: 100px;
+}
+
+.profile-title {
+    margin-left: 105px;
+}
+
+.welcome-para {
+    font-size: 20px;
+    width: 55%;
+    float: right;
+    margin: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+.welcome-head {
+    text-align: center;
+    margin: 20px;
+}
+
+
+/* h2 {
+    background-color: goldenrod;
+    width: 75%;
+    text-align: center;
+    border: 1px solid green;
+    border-radius: 20px;
+} */
+
+img {
+    border: 3px solid yellow;
+    border-radius: 20px;
 }
