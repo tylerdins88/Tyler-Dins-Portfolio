@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom left, rgb(245, 238, 5),
+            rgb(161, 52, 6));
+    background-attachment: fixed;
+}
+
+header {
+    background-color: lawngreen;
+    border-bottom: 5px solid darkgreen;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+}
+
+h1 {
+    padding: 8px;
+    margin-left: 30px;
+}
+
+ul {
+    list-style: none;
+    font-size: 24px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+.header-bar {
+    display: inline;
+}
+
+div {
+    float: right;
+    margin-top: 5px;
+    margin-right: 40px;
+}
+
+.snowboard-photo {
+    border: 5px solid darkblue;
+    border-radius: 30px;
+    display: block;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-photo {
+    border: 3px ridge black;
+    margin-top: 50px;
+    margin-left: 100px;
+}
