@@ -54,10 +54,6 @@ li {
     flex-wrap: wrap;
 }
 
-.my-profile {
-    flex: 2;
-}
-
 .snowboard-photo {
     border: 5px solid darkblue;
     border-radius: 30px;
@@ -168,6 +164,14 @@ footer {
 
     header {
         background-color: lavender;
+    }
+
+    .this-is-me {
+        flex-direction: column;
+    }
+
+    .welcome-para {
+        width: 100%;
     }
 }
 
