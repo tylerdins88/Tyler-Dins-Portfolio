@@ -18,12 +18,6 @@ header {
     padding: 10px;
 }
 
-h1 {
-    font-size: 200%;
-    padding: 8px;
-    margin-left: 30px;
-}
-
 h3 {
     font-size: 130%;
 }
@@ -40,6 +34,9 @@ li {
 
 .header-bar {
     display: inline;
+    font-size: 200%;
+    padding: 8px;
+    margin-left: 30px;
 }
 
 .links {
@@ -53,6 +50,12 @@ li {
     float: right;
     margin-top: 5px;
     margin-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-profile {
+    flex: 2;
 }
 
 .snowboard-photo {
@@ -175,5 +178,17 @@ footer {
 
     header {
         background-color: lightblue;
+    }
+
+    .snowboard-photo {
+        width: 60%;
+    }
+
+    .header-bar {
+        font-size: 100%;
+    }
+
+    ul {
+        font-size: 16px;
     }
 }
