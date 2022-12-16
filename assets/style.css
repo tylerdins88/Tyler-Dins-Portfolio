@@ -1,3 +1,4 @@
+/* This first CSS style sets the margin, padding, and font-family for the whole page to start.  */
 * {
     margin: 0;
     padding: 0;
@@ -117,6 +118,14 @@ img {
     margin-right: auto;
 }
 
+.favmusician:hover,
+.visitor:hover,
+.cheatsheet:hover,
+.studyguide:hover {
+    cursor: pointer;
+    box-shadow: 0 0 25px black;
+}
+
 .mydoggo {
     display: block;
     margin-left: auto;
@@ -157,6 +166,7 @@ footer {
     border-color: var(--borderc);
 }
 
+/* In my 2 media queries, I added a lot of changes to my CSS to make it look styled properly. */
 @media screen and (max-width: 992px) {
     body {
         background-image: linear-gradient(to bottom left, pink, purple);
@@ -172,6 +182,25 @@ footer {
 
     .welcome-para {
         width: 100%;
+        margin: 0;
+    }
+
+    .photo-of-me {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .profile-photo {
+        border: 3px ridge black;
+        border-radius: 5px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .profile-title {
+        margin: 0;
     }
 }
 

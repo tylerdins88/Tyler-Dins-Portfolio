@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- I made sure to include a reset.css file -->
     <link rel="stylesheet" href="./assets/reset.css" />
     <link rel="stylesheet" href="./assets/style.css" />
     <title>Tyler Dins Portfolio</title>
@@ -14,6 +15,7 @@
         <h1 class="header-bar">Tyler Dinslage</h1>
         <div class="links">
             <ul class="links-bar">
+                <!-- These href's link to section's on my page. -->
                 <li><a href="#welcome-description">Welcome</a></li>
                 <li><a href="#projects-made">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -75,33 +77,36 @@
                     I am learning new techniques everyday and applying them.
                 </p>
             </div>
+            <!-- All of these photos link to a new tab in the browser, to a page I created. -->
             <ul class="projectlinks" id="projects-made">
-                <li class="musician">
+                <li>
                     <section>
                         <h2>Favorite Musician</h2>
                         <a target="_blank" href="https://tylerdins88.github.io/favorite-musician/">
-                            <img src="./assets/images/favorite-musician.jpeg" alt="Favorite Musican"></a>
+                            <img class="favmusician" src="./assets/images/favorite-musician.jpeg"
+                                alt="Favorite Musican"></a>
                     </section>
                 </li>
-                <li class="contact">
+                <li>
                     <section>
                         <h2>Visitor Contact</h2>
                         <a target="_blank" href="https://tylerdins88.github.io/landing-page-mini-project/">
-                            <img src="./assets/images/antarctica-continet.jpeg" alt="Antarctica Continent"></a>
+                            <img class="visitor" src="./assets/images/antarctica-continet.jpeg"
+                                alt="Antarctica Continent"></a>
                     </section>
                 </li>
-                <li class="css-snippet">
+                <li>
                     <section>
                         <h2>CSS Cheatsheet</h2>
                         <a target="_blank" href="https://tylerdins88.github.io/css-snippet-mini-project/">
-                            <img src="./assets/images/css-snippet.jpeg" alt="CSS Cheatsheet"></a>
+                            <img class="cheatsheet" src="./assets/images/css-snippet.jpeg" alt="CSS Cheatsheet"></a>
                     </section>
                 </li>
-                <li class="prework-study">
+                <li>
                     <section>
                         <h2>Study Guide</h2>
                         <a target="_blank" href="https://tylerdins88.github.io/prework-study-guide/">
-                            <img src="./assets/images/study-guide.jpeg" alt="Study Guide"></a>
+                            <img class="studyguide" src="./assets/images/study-guide.jpeg" alt="Study Guide"></a>
                     </section>
                 </li>
             </ul>
@@ -112,8 +117,9 @@
         <ul class="mycontacts" id="contact">
             <h2>Contact Information:</h2>
             <li><b>Email:</b> <a href="#">tyler.dins88@gmail.com</a></li>
-            <li><b>Github:</b> <a href="#">github.com/tylerdins88</a></li>
-            <li><b>LinkedIn:</b> <a href="www.linkedin.com/in/tyler-dinslage-a37881166">My LinkedIn</a></li>
+            <li><b>Github:</b> <a href="https://github.com/tylerdins88" target="_blank">GitHub Profile</a></li>
+            <li><b>LinkedIn:</b> <a href="www.linkedin.com/in/tyler-dinslage-a37881166" target="_blank">LinkedIn
+                    Profile</a></li>
         </ul>
         <footer>Thank You for Visiting. Made by Me, Dins.</footer>
     </main>
