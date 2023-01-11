@@ -16,6 +16,10 @@ I also deployed a Media Query in my style.css file so that it changes colors on 
 
 ![ScreenShot](./assets/images/media-query-snippet.png)
 
+This last scrrenshot here is a snippet of the completed page. The 4 images here link to a different page that is a project I have built. They are nicely aligned and feature a shadow style when you scroll over them. 
+
+![ScreenShot](./assets/images/finished-links-portion.png)
+
 
 ## Installation
 
