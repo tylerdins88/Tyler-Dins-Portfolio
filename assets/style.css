@@ -121,7 +121,8 @@ img {
 .favmusician:hover,
 .visitor:hover,
 .cheatsheet:hover,
-.studyguide:hover {
+.studyguide:hover,
+.boozebed:hover {
     cursor: pointer;
     box-shadow: 0 0 25px black;
 }
